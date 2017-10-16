@@ -12,7 +12,6 @@ struct ListNode {
 	struct ListNode *next;
 };
 
-/*
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 	struct ListNode *l1_ptr, *l2_ptr, *sum_ptr, *sum_node;
 	int s = 0;
@@ -47,7 +46,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 	}
 	sum_ptr->next = NULL;
 	return sum_node->next;
-}*/
+}
 
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
